@@ -6,3 +6,31 @@ body {
   text-align: center;
   margin: 20px;
 }
+
+.list-group-thing:hover {
+  background-color: white;
+}
+
+}
+list-group-item d-flex justify-content-between align-items-center
+
+ol {
+  background: #ff9999;
+  padding: 20px;
+}
+
+ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ol li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #cce5ff;
+  margin: 5px;
+}
