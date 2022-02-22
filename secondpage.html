@@ -22,26 +22,28 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Page 1</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="secondpage.html">Page 2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="thirdpage.html">Page 3</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="text" placeholder="Search">
-            <button class="btn btn-primary" type="button">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Page 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="secondpage.html">Page 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="thirdpage.html">Page 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="fourthpage.html">Page 4</a>
+                  </li>
+                </ul>
+                  </div>
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-primary" type="button">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        </nav>
     <!-- Carousel -->
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
@@ -220,3 +222,24 @@ var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
   return new bootstrap.Popover(popoverTriggerEl)
 })
 </script>
+
+<div class="offcanvas offcanvas-end" id="demo">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">Heading</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Some text lorem ipsum.</p>
+    <p>Some text lorem ipsum.</p>
+    <p>Some text lorem ipsum.</p>
+    <button class="btn btn-secondary" type="button">A Button</button>
+  </div>
+</div>
+
+<div class="container-fluid mt-3">
+  <h3>Right Offcanvas</h3>
+  <p>The .offcanvas-end class positions the offcanvas to the right of the page.</p>
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+    Toggle Right Offcanvas
+  </button>
+</div>
