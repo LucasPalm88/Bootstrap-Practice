@@ -13,6 +13,23 @@
   <h1>My First Bootstrap Page</h1>
   <p>Resize this responsive page to see the effect!</p>
 </div>
+<div class="offcanvas offcanvas-top" id="demo">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">Heading</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Hello!</p>
+    <button class="btn btn-secondary" type="button">A Button</button>
+  </div>
+</div>
+
+<div class="container-fluid mt-3">
+  <h3>Top Offcanvas</h3>
+  <p>The .offcanvas-top class positions the offcanvas at the top of the page.</p>
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+    Toggle Top Offcanvas
+  </button>
 
 <div class="container mt-5">
   <div class="row">
@@ -424,13 +441,7 @@
   </div>
 </div>
 
-<div class="container-fluid mt-3">
-  <h3>Bottom Offcanvas</h3>
-  <p>The .offcanvas-bottom class positions the offcanvas at the bottom of the page.</p>
-  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
-    Toggle Bottom Offcanvas
-  </button>
-</div>
+
 
 <div class="container mt-3">
   <h3>Toast Example</h3>
